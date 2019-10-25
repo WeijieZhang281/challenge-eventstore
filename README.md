@@ -2,13 +2,13 @@
 
 This repository contains classes that implement EventStore read/write operations. 
 
-EventIterator: event iterator interface
-EventIteratoImpl: implementation of event iterator
-EventStore: event store interface
-EventStoreImpl: implementation of EventStore operations
-TestEventStore: program class to test EventStore operations (similar to junit test cases)
-EventTest.java: junit test cases 
-ThreadSafeTest: program class to use one thread to execute write operation while use another thread to execute read operations simultaneously
+* EventIterator: event iterator interface
+* EventIteratoImpl: implementation of event iterator
+* EventStore: event store interface
+* EventStoreImpl: implementation of EventStore operations
+* TestEventStore: program class to test EventStore operations (similar to junit test cases)
+* EventTest.java: junit test cases 
+* ThreadSafeTest: program class to use one thread to execute write operation while use another thread to execute read operations simultaneously
 
 Note: 
 
